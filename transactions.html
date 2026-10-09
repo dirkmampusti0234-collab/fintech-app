@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalletPro - Transactions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Transaction History</h1>
+    </header>
+
+    <main>
+        <div class="card">
+            <h3 style="margin-bottom: 1rem; font-size: 1rem; color: var(--neon-cyan);">All Transactions</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Allowance Deposit</td>
+                        <td>Income</td>
+                        <td class="amount-positive">+₱5,000.00</td>
+                    </tr>
+                    <tr>
+                        <td>Cafeteria Lunch</td>
+                        <td>Food</td>
+                        <td class="amount-negative">-₱150.00</td>
+                    </tr>
+                    <tr>
+                        <td>Print Shop Materials</td>
+                        <td>School</td>
+                        <td class="amount-negative">-₱350.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <nav class="app-nav">
+        <a href="dashboard.html">
+            <span>🏠</span> Dashboard
+        </a>
+        <a href="transactions.html" class="active">
+            <span>📊</span> Transactions
+        </a>
+        <a href="add-expense.html">
+            <span>➕</span> Add
+        </a>
+        <a href="confirmation.html">
+            <span>❓</span> Help & Info
+        </a>
+    </nav>
+
+</body>
+</html>
